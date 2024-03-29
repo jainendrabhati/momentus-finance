@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Home Loan",
+    "price": "8.40% - 9.15%",
+    "detail": "Make Your dream Home Reality with Momentus Finance Home Loan",
+    "image": "./hlome.jpg"
+  },
+  {
+    "name": "Mortgage Loan",
+    "price": "9.50% - 11%",
+    "detail": "Avail Momentus finance Mortgage Loan at Competitive rate",
+    "image": "./mot.jpeg"
+  },
+  {
+    "name": "Investment",
+    "price": "8.35% - 15%",
+    "detail": "Invest across diverse asset classes and wide range of investment products",
+    "image": "./invest.jpg"
+  },
+  {
+    "name": "Personal Loan",
+    "price": "10.40% - 11.50%",
+    "detail": "Get a quick solution to your urgent financial needs",
+    "image": "./per.jpg"
+  },
+  {
+    "name": "Vehicle Loan",
+    "price": "8.60% - 10%",
+    "detail": "Don't just drive a vehicle, own it too!    ",
+    "image": "./ve.jpeg"
+  },
+  {
+    "name": "Insurance",
+    "price": "start from 200000 to 50000000",
+    "detail": "Get Your Live Assured today",
+    "image": "./insurance.jpg"
+  },
+  {
+    "name": "Education Loan",
+    "price": "9.15% - 11%",
+    "detail": "Make Your Dream University is now a reality",
+    "image": "./ed.jpeg"
+  }
+]

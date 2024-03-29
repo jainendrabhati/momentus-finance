@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contect</title>
+    <link rel="stylesheet" href="style.css" type = "text/css"/>
+   <script src = "script.js" type="text/javascript"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("Gt_dCiq7BguQ5Wy3D");
+   })();
+</script>
+</head>
+<body>
+    <div class="main-1">
+    <div class="container">
+        <h1>Apply Now</h1>
+        <div class="main">
+            <form>
+        <input type = "text" id = "fullname" placeholder="Full name *" required/><br/>
+        <input type = "text" id = "loan" placeholder="loan amount *" required><br/>
+        <!-- <label for="sal">Choose a Type:</label> -->
+        <select name="sal" id="sal" required>
+            <option value="" selected>Salaried or Business</option>
+            <option value="salaried">Salaried</option>
+            <option value="business">Business</option>
+        </select>
+        <input type = "text" id = "addressed"  placeholder="address *" required>
+       <datalist id = 'sall'>
+    <option value="salaried"/>
+    <option value="business"/><br/>
+       </datalist>
+        <!-- <input type = "text" id = "fullname" placeholder="addsed name" required/><br/> -->
+        <input type = "text" id = "city" placeholder="City *" required><br/>
+        <input type = "text" id = "mobile" placeholder="Mobile number *" required><br/>
+        <select name="loansubject" id="loansubject" placeholder="loan-type">
+            <option value="" selected>Loan Type</option>
+            <option value="Home Loan">Home Loan</option>
+            <option value="Mortgage Loan">Mortgage Loan</option>
+            <option value="Investment">Investment</option>
+            <option value="Personal Loan">Personal Loan</option>
+            <option value="Vehicle Loan">Vehicle Loan</option>
+            <option value="Insurence ">Insurance</option>
+            <option value="Education Loan">Education Loan</option>
+        </select>
+       </form>
+
+        <!-- <input type = "text" id = "name" placeholder="" required/><br/> -->
+        <button onclick = "SendMail()" >submit</button>
+   
+    </div> 
+    <h3>Needed Document For Taking Loan</h3>
+     
+    <div class=" both">
+       <div class="selary">
+            <h3> For salaried Person</h3>
+            <li>
+                    Pan Card
+            </li>
+            <li>
+                Aadhar card
+               
+            </li>
+            <li>
+                Cheque 2
+               
+            </li>
+            <li>
+                Property Paper
+            </li>
+           
+            <li>
+                Bank statement of last 6 months
+             </li>
+             <li>
+                Photo 4 Coloured
+            </li>
+            <li>
+                Form No.16 & ITR return latest
+             </li>
+            <li>
+                Salary slip latest 3 months
+            </li>
+           
+           
+           
+        </div>
+
+        <div class="business">
+            <h3> For business Person</h3>
+            <li>
+                    Pan Card
+            </li>
+            <li>
+                Aadhar  card
+               
+            </li>
+            <li>
+                Cheque 2
+               
+            </li>
+
+            <li>
+                Property Paper
+            </li>
+
+           
+            <li>
+                Bank statement of last 1 year
+             </li>
+
+             <li>
+                Photo 4 Coloured
+            </li>
+           
+            <li>
+                 ITR return latest 3 year with Computation Balance sheet P&L Account
+             </li>
+             <li>
+                Firm Registration No.
+             </li>
+           
+        </div>
+    </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+.numeric {
+  text-align: end;
+}
+
+body {
+  background-color: #6c757d;
+}
+
+.container {
+  background-color: #fff;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+.input-group-text {
+  font-weight: bold;
+}
+
+.hide {
+  display: none;
+}
+
+.main-flex,
+.loan-calculation-header {
+  display: flex;
+  width: 100%;
+}
+
+.main-data-picker,
+.main-chart {
+  width: 50%;
+}
+
+.main-chart,
+.loan-calculation-text-section,
+.loan-calculation-chart-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.chart-container {
+  padding-top: 2rem;
+}
+
+@media screen and (max-width:770px) {
+  body {
+    background-color: white;
+  }
+
+  .main-chart {
+    top: 0;
+    position: fixed;
+    right: 0;
+    padding-left: 4rem;
+    padding-top: 3rem;
+  }
+}

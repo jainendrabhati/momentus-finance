@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:"Poopins",sans-serif;
+    font-size :20px;
+    box-sizing: border-box;
+    background-color: #fe8639;
+}
+
+body{
+    padding: 24px;
+    /* background-color: black; */
+   
+}
+h1,h3,li{
+    color: aliceblue;
+    /* padding-top: .7rem; */
+}
+input,select{
+    border-radius: .8rem;
+    min-width: 250px;
+    width: 100%;
+    /* padding: 0.8rem; */
+    height: 2.6rem;
+    border: 2px solid black;
+}
+
+button{
+    width: 4rem;
+    border-radius: 19px;
+    cursor: pointer;
+    color: black;
+    border: 2px solid black;
+}
+
+/* li{
+    height: 2rem;
+    width: 8rem;
+} */
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 70rem;
+    flex-direction: column;
+    /* background-color: brown; */
+    border-radius: 20px;
+    padding: 3rem; 
+    /* #f26522 */
+}
+.main-1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.selary{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+
+}
+
+.business{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column
+}
+.both{
+    padding-top: 2rem;
+    gap:1.5rem;
+}
+input,textarea,button,select{
+    color: black;
+    margin: 4px 0;
+    padding: 8px;
+}
+
+.both{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (min-width:700px) {
+    body{
+        background-color: #fe8639;
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        width: 100%;
+    }
+
+    .main{
+        width: 70%;
+
+    }
+
+    .input{
+        width: 100%;
+    }
+}
+@media screen and (max-width:950px) {
+.both{
+    /* max-width: 280px;
+     */
+
+     width: 100%;
+}
+.container{
+    width: 100%;
+    padding: 0;
+}
+.selary{
+    min-height: 860px;
+    width: 50%;
+}
+.business{
+    min-height: 860px;
+    width: 50%;
+}
+}
